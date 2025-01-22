@@ -10,7 +10,7 @@ inputBox.onkeyup = ()=>{
   if(userEnteredValue.trim() != 0){ //if the user value isn't only spaces
     addBtn.classList.add("active"); //active the add button
   }else{
-    addBtn.classList.remove("active"); //unactive the add button
+    addBtn.classList.remove("deactive"); //unactive the add button
   }
 }
 
